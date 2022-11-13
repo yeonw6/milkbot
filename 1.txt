@@ -1,0 +1,2 @@
+https://gihyeon.tistory.com/1
+https://discordpy.readthedocs.io/en/stable/migrating.html
