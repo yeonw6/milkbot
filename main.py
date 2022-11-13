@@ -4,6 +4,7 @@ from discord.ext import commands
 from discord import Game
 from discord import Status
 from discord import Object
+import os
 
 class MyBot(commands.Bot):
     def __init__(self):
@@ -33,4 +34,4 @@ class MyBot(commands.Bot):
         await self.change_presence(status=Status.online, activity=game)
 
 bot = MyBot()
-bot.run('NTYxNDE3ODUzNDE3NDIyODU4.Gv9pxf.P7rai3X_7l9UPOsP4C3v9l9xrpy5GT5boJiXME')
+bot.run(os.environ['token'])
